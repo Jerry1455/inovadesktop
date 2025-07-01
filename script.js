@@ -108,5 +108,5 @@ function scrollCarrossel(direcao) {
 }
 
 document.getElementById("carrinho-btn").addEventListener("click", function () {
-  window.location.href = "..Carrinho/Cindex.html";
+  window.location.href = "Carrinho/Cindex.html";
 });
