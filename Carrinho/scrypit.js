@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
     {
       nome: 'Camisa Casual Masculino',
       preco: 89.99,
-      imagem: img src= "Carrinho/img(Fotos)/imgCamisaM.webp",
+      imagem:"Carrinho/img(Fotos)/imgCamisaM.webp",
       estrelas: 5,
       precoAntigo: 99.99,
       desconto: '10% OFF'
@@ -12,13 +12,13 @@ window.addEventListener('DOMContentLoaded', () => {
     {
       nome: 'Calça Feminina',
       preco: 149.99,
-      imagem: img src= "Carrinho/img(Fotos)/imgCalçaF.webp",
+      imagem: "Carrinho/img(Fotos)/imgCalçaF.webp",
       estrelas: 2
     },
     {
       nome: 'Camisa Branca Masculina',
       preco: 129.99,
-      imagem: img src= "Carrinho/img(Fotos)/imgCamisaBranca.webp",
+      imagem:"Carrinho/img(Fotos)/imgCamisaBranca.webp",
       estrelas: 5
     }
   ];
