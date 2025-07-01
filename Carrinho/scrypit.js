@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
     {
       nome: 'Camisa Casual Masculino',
       preco: 89.99,
-      imagem:"Carrinho/img(Fotos)/imgCamisaM.webp",
+      img:"Carrinho/img(Fotos)/imgCamisaM.webp",
       estrelas: 5,
       precoAntigo: 99.99,
       desconto: '10% OFF'
@@ -12,13 +12,13 @@ window.addEventListener('DOMContentLoaded', () => {
     {
       nome: 'Calça Feminina',
       preco: 149.99,
-      imagem: "Carrinho/img(Fotos)/imgCalçaF.webp",
+      img: "Carrinho/img(Fotos)/imgCalçaF.webp",
       estrelas: 2
     },
     {
       nome: 'Camisa Branca Masculina',
       preco: 129.99,
-      imagem:"Carrinho/img(Fotos)/imgCamisaBranca.webp",
+      img:"Carrinho/img(Fotos)/imgCamisaBranca.webp",
       estrelas: 5
     }
   ];
@@ -39,7 +39,7 @@ window.addEventListener('DOMContentLoaded', () => {
     card.innerHTML = `
       <button class="icon-btn share" title="Compartilhar produto"></button>
       <button class="icon-btn favorite" title="Favoritar"></button>
-      <img src="${prod.imagem}" alt="${prod.nome}" />
+      <img src="${prod.img}" alt="${prod.nome}" />
       <h3>${prod.nome}</h3>
       <div class="rating" role="img">${estrelas}</div>
       <div class="price-box">
